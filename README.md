@@ -28,7 +28,7 @@ This library consists of the following hooks:
     {
         "parameters": {
             "asyncapiFileDir": {
-                "description": "Custom location of the AsyncAPI file that you provided as an input in generation. By default it is located in the root of the output directory"
+                "description": "Custom location of the AsyncAPI file that you provided as an input in generation. By default it is located in the root of the output directory",
                 "required": false
             }
         },
