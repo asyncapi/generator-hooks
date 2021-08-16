@@ -7,8 +7,6 @@
     "test": "echo There are no tests yet",
     "lint": "eslint --config .eslintrc .",
     "lint:fix": "eslint --fix --config .eslintrc .",
-    "get:version": "echo $npm_package_version",
-    "get:name": "echo $npm_package_name",
     "release": "semantic-release",
     "generate:assets": "echo 'No additional assets need to be generated at the moment'",
     "bump:version": "npm --no-git-tag-version --allow-same-version version $VERSION"
