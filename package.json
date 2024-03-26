@@ -7,7 +7,6 @@
     "test": "echo There are no tests yet",
     "lint": "eslint --config .eslintrc .",
     "lint:fix": "eslint --fix --config .eslintrc .",
-    "release": "semantic-release",
     "generate:assets": "echo 'No additional assets need to be generated at the moment'",
     "bump:version": "npm --no-git-tag-version --allow-same-version version $VERSION"
   },
@@ -34,33 +33,6 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-plugin-sonarjs": "^0.5.0",
-    "jsdoc-to-markdown": "^7.1.1",
-    "@semantic-release/commit-analyzer": "^8.0.1",
-    "@semantic-release/github": "^7.0.4",
-    "@semantic-release/npm": "^7.0.3",
-    "@semantic-release/release-notes-generator": "^9.0.1",
-    "conventional-changelog-conventionalcommits": "^4.2.3",
-    "semantic-release": "^21.0.1"
-  },
-  "release": {
-    "branches": [
-      "master"
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      [
-        "@semantic-release/release-notes-generator",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      "@semantic-release/github",
-      "@semantic-release/npm"
-    ]
+    "jsdoc-to-markdown": "^7.1.1"
   }
 }
